@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" href="/Assets/Images/Flogo.png" type="image/icon type">
+  <script src="script.js" async></script>
+  <title>Card Blitz</title>
+</head>
+<body>
+  <h1 class="page-title">Card Blitz</h1>
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+
+
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        <i class="fa fa-clock-o" style="font-size:60px;color:white"></i>
+         <span id="time-remaining">65</span>
+      </div>
+      <div class="game-info">
+        <i class="fa fa-play" style="font-size:60px;color:white"></i>
+        <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/DeBruyne.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/DeBruyne.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Bellingham.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Bellingham.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Haaland.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Haaland.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Hakimi.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Hakimi.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Koulibaly.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+       <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Koulibaly.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+       <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Mbappe.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Mbappe.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Messi.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Messi.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Modric.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Modric.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Pedri.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Pedri.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Theo.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="player" src="Assets/Images/Logo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Theo.png">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
